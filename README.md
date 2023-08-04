@@ -1,1 +1,1 @@
-# landing-page
+# Landing page showcasing basic html, css and flexbox.
