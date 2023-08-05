@@ -23,6 +23,7 @@ body {
   color: #f9faf8;
   width: 100em;
   /* padding: 15px; */
+  margin-bottom: 60px;
    
 }
 
@@ -64,4 +65,57 @@ a:active {
 
 ul {
   list-style-type: none;
+}
+
+.hero-container {
+  background-color: #1f2937;
+  display: flex;
+
+}
+
+.hero {
+  color: white;
+  padding: 20px 0;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:  8px;
+  
+  
+  
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero-second-text {
+  color:  #e5e5e5;
+  font-size: 18px;
+}
+
+.placeholder {
+  align-self: flex-end;
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.signupbtn {
+  background-color: #0096FF;
+  border: black;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 25px;
+  text-align: center;
+}
+
+.hero-main-text, .hero-second-text, .signupbtn {
+  margin-left: 210px;
+  
+  
 }
