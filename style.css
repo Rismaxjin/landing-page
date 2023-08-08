@@ -139,7 +139,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   gap: 40px;
   height: 350px;
   
@@ -165,7 +165,7 @@ ul {
 
 .quote-container {
   background-color: #e5e7eb;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -183,14 +183,22 @@ ul {
 }
 
 .second-quote {
-  display: block;
+  display: flex;
   justify-content: space-around;
   background-color: #e5e7eb;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   font-weight: bold;
   height: 100px;
   text-align: center;
+  
+  
  
  
+}
+
+.div-holder {
+  border: 2px solid #e5e7eb;
+  width: 50px;
+  height: 50px;
 }
 
