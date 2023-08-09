@@ -6,6 +6,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .header-container {
@@ -203,3 +206,58 @@ ul {
   height: 50px;
 }
 
+.action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid green; */
+  height: 350px;
+  
+}
+
+.action2-container {
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: 990px;
+  height: 150px;
+  background-color: #0096FF;
+  border-radius: 10px;
+  
+}
+
+.action-header {
+  color: white;
+
+}
+
+.action-text {
+  color: #e5e5e5;
+}
+
+.action-button {
+  padding: 8px 35px;
+  border: 2px solid white;
+  background-color: #0096FF;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  height: 100px;
+  background-color: #1f2937
+
+}
+
+.footer {
+  font-size: 18px;
+  color: #e5e5e5;
+}
