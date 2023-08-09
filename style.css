@@ -184,12 +184,13 @@ ul {
 
 .second-quote {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #e5e7eb;
   /* border: 2px solid blue; */
   font-weight: bold;
   height: 100px;
   text-align: center;
+  
   
   
  
@@ -198,7 +199,7 @@ ul {
 
 .div-holder {
   border: 2px solid #e5e7eb;
-  width: 50px;
+  width: 240px; 
   height: 50px;
 }
 
